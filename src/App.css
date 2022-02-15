@@ -71,3 +71,13 @@ section li {
 label {
   display: block;
 }
+
+.poke-item {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.poke-item img{
+  width: 100px;
+  height: 100px;
+}
