@@ -8,7 +8,6 @@ export default function PokemonSearch() {
   const [pokemon, setPokemon] = useState([]);
   const [isPokeLoading, setPokeLoading] = useState(false);
   const [search, setSearch] = useState('pikachu');
-  // const [searchBy, setSearchBy] = useState('pokemon');
   
   async function handlePokemonSubmit(e) {
     e.preventDefault();
@@ -22,7 +21,6 @@ export default function PokemonSearch() {
         // put the jsonified data in state and set the loading state to false
     const json = await response.json();
     
-    console.log('||json', json);
     setPokemon(json);
     setPokeLoading(false);
 
