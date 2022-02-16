@@ -71,3 +71,19 @@ section li {
 label {
   display: block;
 }
+
+.poke-item, .yelp-item, .weather-item {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.poke-item img {
+  width: 100px;
+  height: 100px;
+}
+.yelp-item img {
+  width: 150px;
+  height: 130px;
+  border-radius: 10px;
+}
