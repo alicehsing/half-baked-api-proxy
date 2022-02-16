@@ -72,9 +72,10 @@ label {
   display: block;
 }
 
-.poke-item, .yelp-item {
-  border: 2px solid black;
+.poke-item, .yelp-item, .weather-item {
+  border: 2px solid whitesmoke;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .poke-item img {

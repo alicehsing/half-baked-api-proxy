@@ -31,7 +31,7 @@ export default function YelpSearch() {
         Search yelp for a city
         {/* add inputs/labels for city name, state, and country, using all the things we need with react forms. Don't forget to use the value property to sync these up with the default values in react state */}
         <label>
-          <input value='beaverton or usa' onChange={e => setSearch(e.target.value)} />
+          <input onChange={e => setSearch(e.target.value)} placeholder='City, State, Country'/>
         </label>
         <button>Search yelp</button>
       </form>

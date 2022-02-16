@@ -2,7 +2,7 @@
 require('dotenv').config();
 const fetch = require('node-fetch');
 
-exports.handler = async (event, context) => {
+exports.handler = async (event) => {
   try {
     // grab the pokemon's name from the request's query parameters
     // here is an example from the netlify docs:
